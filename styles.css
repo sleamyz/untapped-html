@@ -17,8 +17,30 @@ font-family: 'Yeseva One', cursive; */
   --higlight-color-dark: #8b263f;
 }
 
-.bg-gray {
-  background-color: var(--secondary-color-dark);
+.bg-home {
+    background-image: linear-gradient(rgba(240, 240, 240, 0.7), rgba(240, 240, 240, 0.7)), url("img/toronto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-team {
+    background-image: linear-gradient(rgba(240, 240, 240, 0.7), rgba(240, 240, 240, 0.7)), url("img/chicago.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-events {
+    background-image: linear-gradient(rgba(240, 240, 240, 0.7), rgba(240, 240, 240, 0.7)), url("img/new york city.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-comp {
+    background-image: linear-gradient(rgba(240, 240, 240, 0.7), rgba(240, 240, 240, 0.7)), url("img/london.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-join {
+    background-image: linear-gradient(rgba(240, 240, 240, 0.7), rgba(240, 240, 240, 0.7)), url("img/hong kong.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Home Styles */
